@@ -44,10 +44,6 @@
             this.panel3 = new System.Windows.Forms.Panel();
             this.btnCheckOut = new System.Windows.Forms.Button();
             this.txbTotalPrice = new System.Windows.Forms.TextBox();
-            this.cbSwitchTable = new System.Windows.Forms.ComboBox();
-            this.btnSwitchTable = new System.Windows.Forms.Button();
-            this.nmDiscount = new System.Windows.Forms.NumericUpDown();
-            this.btnDiscount = new System.Windows.Forms.Button();
             this.panel4 = new System.Windows.Forms.Panel();
             this.nmFoodCount = new System.Windows.Forms.NumericUpDown();
             this.btnAddFood = new System.Windows.Forms.Button();
@@ -57,7 +53,6 @@
             this.menuStrip1.SuspendLayout();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nmDiscount)).BeginInit();
             this.panel4.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.nmFoodCount)).BeginInit();
             this.SuspendLayout();
@@ -158,10 +153,6 @@
             // 
             this.panel3.Controls.Add(this.btnCheckOut);
             this.panel3.Controls.Add(this.txbTotalPrice);
-            this.panel3.Controls.Add(this.cbSwitchTable);
-            this.panel3.Controls.Add(this.btnSwitchTable);
-            this.panel3.Controls.Add(this.nmDiscount);
-            this.panel3.Controls.Add(this.btnDiscount);
             this.panel3.Location = new System.Drawing.Point(552, 408);
             this.panel3.Name = "panel3";
             this.panel3.Size = new System.Drawing.Size(440, 77);
@@ -169,9 +160,9 @@
             // 
             // btnCheckOut
             // 
-            this.btnCheckOut.Location = new System.Drawing.Point(339, 3);
+            this.btnCheckOut.Location = new System.Drawing.Point(254, 3);
             this.btnCheckOut.Name = "btnCheckOut";
-            this.btnCheckOut.Size = new System.Drawing.Size(98, 53);
+            this.btnCheckOut.Size = new System.Drawing.Size(183, 71);
             this.btnCheckOut.TabIndex = 8;
             this.btnCheckOut.Text = "Thanh toán";
             this.btnCheckOut.UseVisualStyleBackColor = true;
@@ -180,45 +171,11 @@
             // txbTotalPrice
             // 
             this.txbTotalPrice.Font = new System.Drawing.Font("Arial", 12F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.txbTotalPrice.Location = new System.Drawing.Point(196, 21);
+            this.txbTotalPrice.Location = new System.Drawing.Point(0, 29);
             this.txbTotalPrice.Name = "txbTotalPrice";
-            this.txbTotalPrice.Size = new System.Drawing.Size(137, 30);
+            this.txbTotalPrice.Size = new System.Drawing.Size(248, 30);
             this.txbTotalPrice.TabIndex = 7;
             this.txbTotalPrice.TextChanged += new System.EventHandler(this.txbTotalPrice_TextChanged);
-            // 
-            // cbSwitchTable
-            // 
-            this.cbSwitchTable.FormattingEnabled = true;
-            this.cbSwitchTable.Location = new System.Drawing.Point(3, 32);
-            this.cbSwitchTable.Name = "cbSwitchTable";
-            this.cbSwitchTable.Size = new System.Drawing.Size(92, 24);
-            this.cbSwitchTable.TabIndex = 4;
-            // 
-            // btnSwitchTable
-            // 
-            this.btnSwitchTable.Location = new System.Drawing.Point(0, 3);
-            this.btnSwitchTable.Name = "btnSwitchTable";
-            this.btnSwitchTable.Size = new System.Drawing.Size(95, 28);
-            this.btnSwitchTable.TabIndex = 6;
-            this.btnSwitchTable.Text = "Chuyển bàn";
-            this.btnSwitchTable.UseVisualStyleBackColor = true;
-            // 
-            // nmDiscount
-            // 
-            this.nmDiscount.Location = new System.Drawing.Point(101, 34);
-            this.nmDiscount.Name = "nmDiscount";
-            this.nmDiscount.Size = new System.Drawing.Size(89, 22);
-            this.nmDiscount.TabIndex = 5;
-            this.nmDiscount.TextAlign = System.Windows.Forms.HorizontalAlignment.Center;
-            // 
-            // btnDiscount
-            // 
-            this.btnDiscount.Location = new System.Drawing.Point(101, 3);
-            this.btnDiscount.Name = "btnDiscount";
-            this.btnDiscount.Size = new System.Drawing.Size(89, 28);
-            this.btnDiscount.TabIndex = 4;
-            this.btnDiscount.Text = "Giảm giá";
-            this.btnDiscount.UseVisualStyleBackColor = true;
             // 
             // panel4
             // 
@@ -303,7 +260,6 @@
             this.panel2.ResumeLayout(false);
             this.panel3.ResumeLayout(false);
             this.panel3.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.nmDiscount)).EndInit();
             this.panel4.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)(this.nmFoodCount)).EndInit();
             this.ResumeLayout(false);
@@ -326,10 +282,6 @@
         private System.Windows.Forms.Button btnAddFood;
         private System.Windows.Forms.ComboBox cbFood;
         private System.Windows.Forms.ComboBox cbCategory;
-        private System.Windows.Forms.ComboBox cbSwitchTable;
-        private System.Windows.Forms.Button btnSwitchTable;
-        private System.Windows.Forms.NumericUpDown nmDiscount;
-        private System.Windows.Forms.Button btnDiscount;
         private System.Windows.Forms.FlowLayoutPanel flpTable;
         private System.Windows.Forms.ColumnHeader columnHeader3;
         private System.Windows.Forms.ColumnHeader columnHeader4;
